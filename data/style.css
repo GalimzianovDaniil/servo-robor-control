@@ -1,0 +1,91 @@
+
+/* общие настройки стилей */
+div {
+    box-sizing: border-box;
+}
+h3 {
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* дизайн шапки */
+
+.header__img {
+    height: 10vh;
+    width: 10vh;
+}
+
+.header__title {
+    font-size: 10vh;
+    color: blueviolet;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #6FC6FF;
+    box-shadow: 0 5px 0 #3C93D5;    
+}
+
+/* дизайн главной секции */
+
+.regulator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 400px;
+}
+
+.regulator__img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    border: 5px solid #3C93D5;
+    border-radius: 20px;
+}
+
+.regulator__title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.script__img {
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+}
+.script__title {
+    text-align: center;
+}
+.script {
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow:5px 2px 86px 9px rgba(105,176,105,0.3);
+}
+
+.script:hover {
+    box-shadow:5px 2px 86px 9px white;
+    border: 3px solid rgba(105,176,105,0.3);
+    transition: 0.4s;
+}
+
+.scripts__title {
+    text-align: center;
+    margin-top: 40px;
+}
